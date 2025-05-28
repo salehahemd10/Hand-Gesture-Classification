@@ -1,7 +1,8 @@
 import cv2
 import mediapipe as mp
 import numpy as np
-import joblib  # For loading the trained SVM model
+import joblib  
+# For loading the trained SVM model
 
 # Load the trained SVM model
 svm_model = joblib.load("svm_winner.pkl")
